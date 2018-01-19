@@ -1,4 +1,4 @@
-# Deploy the Superhero Ratings App to AKS
+# Deploy the Superhero Ratings App to ACS
 
 ## Review/Edit the YAML Config Files
 
@@ -15,7 +15,7 @@
             name:  heroes-web-cntnr
         ```
 
-## Setup AKS with access to Azure Container Registry
+## Setup ACS with access to Azure Container Registry
 
 There are a few ways that AKS clusters can access your private Azure Container Registry. Generally the service account that kubernetes utilizes will have rights based on its Azure credentials. In our lab config, we must create a secret to allow this access. 
 

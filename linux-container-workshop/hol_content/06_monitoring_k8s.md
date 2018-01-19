@@ -1,4 +1,4 @@
-# Add Monitoring to an Azure Kubernetes Service Cluster
+# Add Monitoring to an Azure Container Service Cluster
 
 There are a number of monitoring solutions available today. Here is a quick, but not exhaustive list for reference purposes:
 * Datadog
